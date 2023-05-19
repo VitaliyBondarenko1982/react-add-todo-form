@@ -23,6 +23,8 @@ export const App = () => {
   const [userError, setUserError] = useState(false);
   const [todos, setTodos] = useState(getTodos);
 
+  const titleRegex = new RegExp(/[0-9A-Za-zА-Яа-я ]/);
+
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
@@ -60,7 +62,9 @@ export const App = () => {
     const { name, value } = e.target;
 
     if (name === 'title') {
-      setTitle(value);
+      setTitle(prevValue => (
+        titleRegex.test(value[value.length - 1]) ? value : prevValue));
+
       setTitleError(false);
     }
 
