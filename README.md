@@ -1,5 +1,7 @@
 # React Add TODO Form
 
+[DEMO LINK](https://VitaliyBondarenko1982.github.io/react_add-todo-form/)
+
 Implement the ability to add TODOs to the `TodoList` implemented in the [Static List of TODOs](https://github.com/mate-academy/react_static-list-of-todos).
 
 > Here is [the working example](https://mate-academy.github.io/react_add-todo-form/)
@@ -27,4 +29,4 @@ Implement the ability to add TODOs to the `TodoList` implemented in the [Static 
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
 - Use the [React TypeScript cheat sheet](https://mate-academy.github.io/fe-program/js/extra/react-typescript).
 - Open one more terminal and run tests with `npm test` to ensure your solution is correct.
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_add-todo-form/) and add it to the PR description.
+- Replace `<your_account>` with your Github username in the [DEMO LINK](https://VitaliyBondarenko1982.github.io/react_add-todo-form/) and add it to the PR description.
