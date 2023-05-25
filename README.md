@@ -1,6 +1,6 @@
 # React Add TODO Form
 
-[DEMO LINK](https://VitaliyBondarenko1982.github.io/react_add-todo-form/)
+[DEMO LINK](https://VitaliyBondarenko1982.github.io/react-add-todo-form/)
 
 Implement the ability to add TODOs to the `TodoList` implemented in the [Static List of TODOs](https://github.com/mate-academy/react_static-list-of-todos).
 
